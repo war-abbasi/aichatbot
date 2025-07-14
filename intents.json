@@ -1,0 +1,30 @@
+{
+  "intents": [
+    {
+      "tag": "admission",
+      "patterns": ["admission", "how to apply", "enroll", "registration"],
+      "response": "Admissions open in July. Apply online through our official portal."
+    },
+    {
+      "tag": "courses",
+      "patterns": ["courses", "programs", "degrees", "subjects"],
+      "response": "We offer programs in Computer Science, Engineering, and Business."
+    },
+    {
+      "tag": "fees",
+      "patterns": ["fees", "fee structure", "cost", "tuition"],
+      "response": "Fee structures are available on the website, depending on your chosen program."
+    },
+    {
+      "tag": "contact",
+      "patterns": ["contact", "email", "phone", "reach"],
+      "response": "You can email us at info@university.edu or call +92-300-0000000."
+    },
+    {
+      "tag": "location",
+      "patterns": ["location", "address", "campus", "where"],
+      "response": "We are located in Islamabad, Pakistan."
+    }
+  ],
+  "fallback": "Sorry, I didn’t understand that. Please ask something about admission, courses, fees, or contact."
+}
